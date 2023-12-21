@@ -9,7 +9,7 @@ ref: [skywind3000/vim-init](https://github.com/skywind3000/vim-init)
 ```bash
 # 获取子模块内容
 #git clone git@github.com:cyhfvg/.vim.git
-git clone https://github.com/cyhfvg/.vim.git
+git clone https://github.com/acidzang/.vim.git
 cd .vim/
 
 # 获取子模块内容(获取依赖插件)
