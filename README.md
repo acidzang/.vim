@@ -30,6 +30,10 @@ git submodule add https://github.com/{username}/{packagename}.git pack/mypackage
 
 ```bash
 git submodule update --recursive --remote
+
+cd .vim/pack/mypackage/start/coc.nvim
+npm install -g yarn
+yarn install
 ```
 
 ### 依赖插件更新
