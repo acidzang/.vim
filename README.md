@@ -31,6 +31,9 @@ git submodule add https://github.com/{username}/{packagename}.git pack/mypackage
 git submodule update --recursive --remote
 
 cd .vim/pack/mypackage/start/coc.nvim
+# 推荐使用ci安装lock文件
+npm ci
+# 备选，可能有问题
 npm install -g yarn
 yarn install
 ```
